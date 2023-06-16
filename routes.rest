@@ -1,0 +1,29 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/648baecb989a3a7464b3853f
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Imam",
+    "subscriberToChannel": "No"
+}
+
+###
+PATCH  http://localhost:3000/subscribers/648baecb989a3a7464b3853f
+Content-Type: application/json
+
+{
+    "name": "Imam Ztona",
+    "subscriberToChannel": "No"
+}
+
+###
+DELETE  http://localhost:3000/subscribers/648bc58fee0813c6f5392d45
+
+
